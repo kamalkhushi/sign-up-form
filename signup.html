@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign up</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="signup.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+</head>
+<body>
+<div class="signup">
+    <form >
+        <h2>Sign Up</h2>
+        <p class="description">Please Fill The Form.</p>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-xs-6"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+                <div class="col-xs-6"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+            </div>          
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" name="email" placeholder="Email Address" required="required">
+        </div>
+        <div class="form-group">
+           <div class="row">
+                <div class="col-xs-4">
+                    <select id="example1" class="form-control">
+                        <option>+91</option>
+                        <option>+41</option>
+                    </select>
+                </div>
+                <div class="col-xs-8"><input type="tel" class="form-control" name="urstel" placeholder="Phone Number" required="required"></div>
+           </div>    
+       </div>
+        <div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+        </div>        
+        
+        <div class="form-group">
+            <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
+        </div>
+    </form>
+    <div class="text-center">Already have an account? <a href="signin.html">Sign In</a></div>
+</div>
+</body>
+</html>
