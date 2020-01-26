@@ -9,9 +9,14 @@ It consits of three web pages :-
 - added forgot password page.
 - added sign in page.
 - added linking feature to switch to different pages.
+- added backend code by php.
+- added database management .
 
 ### Tech
 - Sublime editor
 - Html
 - CSS
 - Bootstrap
+- xampp
+- mysql
+- php
